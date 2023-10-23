@@ -1,0 +1,133 @@
+/*Diseño aquí, porque intrusivo es el diablo*/
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-1 {
+    background-color: rgb(116, 116, 116);
+    margin-right: 100px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.logo-1 {
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(130, 27, 226);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(0, 150, 209);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.btn-1 {
+    background-color: rgb(116, 116, 116);
+    color: rgb(130, 27, 226);
+    font-size: 18px;
+    border-radius: 40px;
+    border: none;
+    width: 150px;
+    height: 45px;
+}
+
+.btn-1:hover {
+    color: rgb(0, 150, 209);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-color: #fff;
+}
+
+.modificar-btn {
+    background-color: #000000;
+    color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    border: none;
+}
+
+.modificar-btn:hover {
+    background-color: #505050;
+}
+
+.eliminar-btn {
+    background-color: #505050;
+    color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    border: none;
+}
+
+.eliminar-btn:hover {
+    background-color: #000000ef;
+}
+
+#list {
+    background-color: rgba(182, 182, 182, 0.7);
+    padding: 10px;
+}
+
+#selectBusqueda {
+    display: none;
+}
+
+#addproduct {
+    background-color: #000000;
+}
